@@ -52,3 +52,56 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+header {
+    background-color: cadetblue;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+header nav {
+    width: 30%;
+    margin: 3% 0 0 3%;
+    font-size: 2rem;
+    display: flex;
+    flex-basis: start;
+    justify-content: space-between;
+}
+
+nav a {
+
+}
+
+main {
+    margin: 2% 5% 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main a {
+    margin-bottom: 2%;
+}
+
+main section {
+    width: 40%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly
+}
+
+.projects a {
+    margin-bottom: 2%;
+}
