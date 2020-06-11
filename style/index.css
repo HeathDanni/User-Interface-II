@@ -61,7 +61,7 @@ header {
     border: 2px outset #00203c;
     padding-top: 2%;
     padding-left: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
 }
 
 h1 {
@@ -143,4 +143,26 @@ main section p {
 
 .projects a {
     margin-bottom: 2%;
+}
+
+footer {
+    margin: 5% 20% 5% 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fab {
+    font-size: 4rem;
+}
+
+.fa-linkedin {
+    color:#4682B4;
+}
+
+.fa-github {
+    color: #B22222;
+}
+
+.fa-codepen {
+    color: #696969;
 }
