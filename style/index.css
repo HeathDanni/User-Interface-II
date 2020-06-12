@@ -64,9 +64,12 @@ header {
     padding-bottom: 4%;
 }
 
+
 h1 {
     font-size: 5rem;
     color: #F8F8FF;
+    animation-name: fadeSlide;
+    animation-duration: 10s;
 }
 
 header nav {
@@ -86,6 +89,16 @@ nav a {
     margin: 1px;
     border: 1px outset #00203c;
 }
+
+nav a:hover {
+    color: #DCDCDC;
+}
+
+nav a:active {
+    border: 1px inset #00203c;
+    background-image: linear-gradient(#00203c, #696969);
+}
+
 
 main {
     margin: 5% 0;
@@ -137,7 +150,7 @@ main section p {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .projects a {
@@ -166,3 +179,16 @@ footer {
 .fa-codepen {
     color: #696969;
 }
+  
+@keyframes fadeSlide {
+    from {
+      margin-left: 100%;
+      width: 100%;
+      color: #00203c;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
